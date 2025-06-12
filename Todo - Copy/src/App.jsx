@@ -1,9 +1,11 @@
 import { useState } from "react";
-import Navbar from "./components/Navbar/Navbar";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
-// import "./App.css";
-
+import Navbar from "./components/Navbar/Navbar"
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import About2 from "./components/About/About2";
+import Contact from "./components/Contact/Contact";
+import Pricing from "./components/Pricing/Pricing";
+import Feedback from "./components/Feedback/Feedback";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -11,6 +13,12 @@ function App() {
     <>
       <div>
         <Navbar />
+        <Hero />
+        <About/>
+        <About2 />
+        <Contact />
+        <Pricing />
+        <Feedback />
       </div>
     </>
   );

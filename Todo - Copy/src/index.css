@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+   .primary-btn {
+        @apply inline-block rounded-md bg-red-600 hover:bg-red-800 text-white px-2 py-2 duration-200;
+    }
+    
+    
+}

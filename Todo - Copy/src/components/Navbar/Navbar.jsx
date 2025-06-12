@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/gym logo.png'
+import logo from '../../assets/new gym-logo.png'
 import { BiPhoneCall } from 'react-icons/bi'
 import DarkMode from './DarkMode'
 
@@ -25,8 +25,8 @@ export const Navlinks =[
 const Navbar = () => {
   return (
     <>
-   <nav className='shadow-md w-full dark:bg-black dark:text-white' >
-     <div className="container max-w-7xl mx-auto px-4 py-3 bg-slate-100">
+   <nav className='shadow-md w-full dark:bg-black ' >
+     <div className="container max-w-7xl mx-auto px-4 py-3 bg-slate-200">
         <div className="flex items-center justify-between ">
             <div>
                 <img src={logo} alt="" className='w-20' sm:w-25 m-5/>
