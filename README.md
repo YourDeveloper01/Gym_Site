@@ -19,7 +19,7 @@ A fully responsive and modern gym website frontend built using **React.js**. Thi
 - React.js  
 - JavaScript (ES6)  
 - HTML5 & CSS3  
-- Tailwind CSS *(if used)*  
+- Tailwind CSS   
 - Git & GitHub  
 
 ---
